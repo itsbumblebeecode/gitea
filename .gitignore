@@ -1,0 +1,8 @@
+/postgres
+/gitea
+/gitea-gruvbox/conf/app.ini
+.env
+
+*.swp
+.DS_Store
+Thumbs.db
