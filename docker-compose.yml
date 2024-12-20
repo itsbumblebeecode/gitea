@@ -24,8 +24,8 @@ services:
       - /etc/timezone:/etc/timezone:ro
       - /etc/localtime:/etc/localtime:ro
     ports:
-      - "9000:3000"
-      - "222:22"
+      - "${GITEA_PORT}:3000"
+      - "${SSH_PORT}:22"
     depends_on:
       - db
 
